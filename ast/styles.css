@@ -73,19 +73,18 @@ html, body {
 	z-index: 1;
 }
 
+.kitty-frase:not(.putin) {
+	letter-spacing: 2px;
+}
+
 .kitty-frase.putin {
 	width: 512px;
-	height: 150px;
 	font-family: monospace;
 	padding-top: 20px;
 	border-radius: 10px;
 	background: rgba(50, 50, 50, .2);
 	border: 4px solid rgba(50, 50, 50, .3);
 	z-index: 2;
-}
-
-.kitty-frase:not(.putin) {
-	letter-spacing: 2px;
 }
 
 .kitty-frase::after {
